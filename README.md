@@ -7,7 +7,7 @@ A collection of [Windhawk](https://windhawk.net) mods. Each mod lives in its own
 | Mod | Description |
 |---|---|
 | [Explorer: open new windows as tabs](mods/explorer-windows-to-tabs) | A new File Explorer window opens as a tab in an already open window; an already open folder just becomes the active tab. |
-| [Telegram: media viewer on the chat monitor](mods/telegram-viewer-monitor) | Telegram Desktop secondary windows (photo/video viewer, etc.) open on the monitor of the main window. |
+| [Secondary windows on the active monitor](mods/secondary-windows-on-active-monitor) | Multi-monitor: secondary windows of the selected apps (Telegram media viewer, etc.) open on the monitor of the app's active window. |
 
 ## Installation
 

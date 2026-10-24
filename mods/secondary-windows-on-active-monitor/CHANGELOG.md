@@ -1,5 +1,18 @@
 # Changelog / Список изменений
 
+## 2.0
+
+- EN: The mod works with any app, not only Telegram: the new *Applications* setting is a list of processes (Telegram.exe by default), each with its own window title filter. Renamed to "Secondary windows on the active monitor", new id `secondary-windows-on-active-monitor` (was `telegram-viewer-monitor`).
+- EN: The mod is loaded into every process (`@include *`) but hooks only the processes from the list; changes to the list apply without restarting the apps.
+- EN: Window filtering for non-Qt apps: menus, tooltips, drop-down lists, tool windows and non-activating windows are skipped.
+- EN: The global *Window title filter* setting moved into each app entry.
+- EN: README states that the mod is meant for multi-monitor setups and shows a demo.
+- RU: Мод работает с любым приложением, а не только с Telegram: новая настройка «Приложения» — список процессов (по умолчанию Telegram.exe), у каждого свой фильтр по заголовку. Новое название — «Дочерние окна на активном мониторе», новый id `secondary-windows-on-active-monitor` (был `telegram-viewer-monitor`).
+- RU: Мод загружается во все процессы (`@include *`), но ставит хуки только в процессах из списка; изменения списка применяются без перезапуска приложений.
+- RU: Отбор окон для не-Qt приложений: меню, подсказки, выпадающие списки, панели инструментов и неактивируемые окна не переносятся.
+- RU: Общая настройка «Фильтр по заголовку окна» перенесена в запись каждого приложения.
+- RU: В README сказано, что мод нужен при нескольких мониторах, добавлена демонстрация.
+
 ## 1.2
 
 - EN: Removed the "Keep maximized windows maximized" setting: maximized windows are always moved as maximized (turning it off only brought back broken behavior).
