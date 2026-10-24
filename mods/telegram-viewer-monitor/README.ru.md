@@ -18,10 +18,9 @@ Telegram Desktop запоминает, на каком мониторе откр
 ## Установка
 
 1. Установите [Windhawk](https://windhawk.net).
-2. Откройте Windhawk, перейдите в **Explore** и найдите **Telegram: просмотрщик на мониторе чата** (когда мод опубликован в каталоге Windhawk).
-3. Нажмите **Install**.
+2. В Windhawk нажмите **Create a new mod**, замените сгенерированный код содержимым файла [`telegram-viewer-monitor.wh.cpp`](telegram-viewer-monitor.wh.cpp), затем **Compile Mod** и **Enable**.
 
-Ручная установка (пока мода нет в каталоге): в Windhawk нажмите **Create a new mod**, замените сгенерированный код содержимым файла [`telegram-viewer-monitor.wh.cpp`](telegram-viewer-monitor.wh.cpp), затем **Compile Mod** и **Enable**.
+Мод отправляется в официальный каталог Windhawk. После принятия его можно будет установить напрямую: **Explore** -> поиск **Telegram: просмотрщик на мониторе чата** -> **Install**.
 
 ## Лицензия
 

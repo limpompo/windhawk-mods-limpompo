@@ -12,9 +12,7 @@
 
 ## Установка
 
-Откройте Windhawk, перейдите в **Explore**, найдите мод по названию и нажмите **Install** (когда мод опубликован в каталоге Windhawk).
-
-Ручная установка: в Windhawk нажмите **Create a new mod**, замените сгенерированный код содержимым `mods/<id>/<id>.wh.cpp`, затем **Compile Mod** и **Enable**.
+См. README каждого мода. Кратко: в Windhawk нажмите **Create a new mod**, вставьте содержимое `mods/<id>/<id>.wh.cpp`, затем **Compile Mod** и **Enable**. Когда мод принят в каталог Windhawk, его можно ставить и из **Explore**.
 
 ## Лицензия
 

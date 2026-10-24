@@ -12,9 +12,7 @@ A collection of [Windhawk](https://windhawk.net) mods. Each mod lives in its own
 
 ## Installation
 
-Open Windhawk, go to **Explore**, search for the mod by name and click **Install** (once the mod is published in the Windhawk catalog).
-
-Manual installation: in Windhawk click **Create a new mod**, replace the generated code with the contents of `mods/<id>/<id>.wh.cpp`, then **Compile Mod** and **Enable**.
+See the README of each mod. In short: in Windhawk click **Create a new mod**, paste the contents of `mods/<id>/<id>.wh.cpp`, then **Compile Mod** and **Enable**. Once a mod is accepted into the Windhawk catalog it can also be installed from **Explore**.
 
 ## License
 

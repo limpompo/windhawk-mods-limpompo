@@ -35,10 +35,9 @@
 ## Установка
 
 1. Установите [Windhawk](https://windhawk.net).
-2. Откройте Windhawk, перейдите в **Explore** и найдите **Проводник: новые окна — во вкладки** (когда мод опубликован в каталоге Windhawk).
-3. Нажмите **Install**.
+2. В Windhawk нажмите **Create a new mod**, замените сгенерированный код содержимым файла [`explorer-windows-to-tabs.wh.cpp`](explorer-windows-to-tabs.wh.cpp), затем **Compile Mod** и **Enable**.
 
-Ручная установка (пока мода нет в каталоге): в Windhawk нажмите **Create a new mod**, замените сгенерированный код содержимым файла [`explorer-windows-to-tabs.wh.cpp`](explorer-windows-to-tabs.wh.cpp), затем **Compile Mod** и **Enable**.
+Мод отправляется в официальный каталог Windhawk. После принятия его можно будет установить напрямую: **Explore** -> поиск **Проводник: новые окна — во вкладки** -> **Install**.
 
 ## Лицензия
 

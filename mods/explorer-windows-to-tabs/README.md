@@ -35,10 +35,9 @@ The "new tab" window command (`WM_COMMAND 0xA21B`) and part of the logic rely on
 ## Installation
 
 1. Install [Windhawk](https://windhawk.net).
-2. Open Windhawk, go to **Explore** and search for **Explorer: open new windows as tabs** (once the mod is published in the Windhawk catalog).
-3. Click **Install**.
+2. In Windhawk click **Create a new mod**, replace the generated code with the contents of [`explorer-windows-to-tabs.wh.cpp`](explorer-windows-to-tabs.wh.cpp), then click **Compile Mod** and **Enable**.
 
-Manual installation (before the mod appears in the catalog): in Windhawk click **Create a new mod**, replace the generated code with the contents of [`explorer-windows-to-tabs.wh.cpp`](explorer-windows-to-tabs.wh.cpp), then **Compile Mod** and **Enable**.
+The mod is being submitted to the official Windhawk catalog. Once it is accepted it can be installed directly: **Explore** -> search for **Explorer: open new windows as tabs** -> **Install**.
 
 ## License
 

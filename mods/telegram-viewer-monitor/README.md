@@ -18,10 +18,9 @@ Telegram Desktop remembers which monitor the media viewer was opened on and open
 ## Installation
 
 1. Install [Windhawk](https://windhawk.net).
-2. Open Windhawk, go to **Explore** and search for **Telegram: media viewer on the chat monitor** (once the mod is published in the Windhawk catalog).
-3. Click **Install**.
+2. In Windhawk click **Create a new mod**, replace the generated code with the contents of [`telegram-viewer-monitor.wh.cpp`](telegram-viewer-monitor.wh.cpp), then click **Compile Mod** and **Enable**.
 
-Manual installation (before the mod appears in the catalog): in Windhawk click **Create a new mod**, replace the generated code with the contents of [`telegram-viewer-monitor.wh.cpp`](telegram-viewer-monitor.wh.cpp), then **Compile Mod** and **Enable**.
+The mod is being submitted to the official Windhawk catalog. Once it is accepted it can be installed directly: **Explore** -> search for **Telegram: media viewer on the chat monitor** -> **Install**.
 
 ## License
 
