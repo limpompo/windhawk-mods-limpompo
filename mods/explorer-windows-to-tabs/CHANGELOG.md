@@ -1,5 +1,16 @@
 # Changelog / Список изменений
 
+## 1.7
+
+- EN: A tab closed in another Explorer window while a new window is being merged is no longer taken for a dragged-out tab: the tab that left must have the same title as the new window's tab.
+- EN: "Show in folder": tabs showing the contents of an archive (.zip, .cab) are no longer probed.
+- EN: The redirect state of "Show in folder" is per window thread (`thread_local`).
+- EN: Setting descriptions say that the tab switch and window activation also happen when other programs (scripts, sync tools) select files in an Explorer window.
+- RU: Вкладка, закрытая в другом окне Проводника во время слияния нового окна, больше не принимается за вытащенную: ушедшая вкладка должна называться так же, как вкладка нового окна.
+- RU: «Показать в папке»: вкладки с содержимым архива (.zip, .cab) больше не проверяются.
+- RU: Состояние перенаправления «Показать в папке» — своё у каждого потока окна (`thread_local`).
+- RU: В описаниях настроек сказано, что переключение вкладки и вывод окна вперёд срабатывают и тогда, когда файлы в окне Проводника выделяют другие программы (скрипты, синхронизация).
+
 ## 1.6
 
 - EN: Safe unloading: one long-lived worker thread does all merges and tab switches; `Wh_ModUninit` stops it and waits without a timeout; waits end at once on unload; tab hooks and UI Automation are released on the worker before it exits.
