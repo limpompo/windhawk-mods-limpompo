@@ -1,5 +1,14 @@
 # Changelog / Список изменений
 
+## 1.2
+
+- EN: Removed the "Keep maximized windows maximized" setting: maximized windows are always moved as maximized (turning it off only brought back broken behavior).
+- EN: Moving to a monitor with higher scaling no longer makes the window larger than the screen: the size is set so that it fits after Telegram rescales the window.
+- EN: The restore rect of a maximized window gets the size for the new monitor's scaling, so the restored window keeps its visual size.
+- RU: Убрана настройка «Развёрнутые окна — развёрнутыми»: развёрнутые окна всегда переносятся развёрнутыми (её выключение лишь возвращало ошибочное поведение).
+- RU: При переносе на монитор с бо́льшим масштабом окно больше не выходит за экран: размер задаётся так, чтобы окно поместилось после того, как Telegram изменит его под новый масштаб.
+- RU: Размер развёрнутого окна для восстановления пересчитывается под масштаб нового монитора, поэтому восстановленное окно не уменьшается.
+
 ## 1.1
 
 - EN: The window is moved before it is shown (fixes the `SetWindowPos` path: the window was activated first and then not moved, or visibly jumped).

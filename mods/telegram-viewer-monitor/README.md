@@ -18,7 +18,6 @@ Telegram Desktop remembers which monitor the media viewer was opened on and open
 |---|---|---|
 | Keep window position | on | On: the window keeps its place (a corner stays a corner). Off: the window is centered on the main window's monitor |
 | Account for monitor scaling | on | Places the window so it fits after Telegram resizes it for a different scale (100% / 150%). Turn off if windows are placed wrongly on such a setup |
-| Keep maximized windows maximized | on | On: a maximized window opens maximized on the new monitor and restores there. Off: moved like a regular window (as in 1.0) |
 | Window title filter | empty | Move only windows whose title contains this text; empty - all secondary windows |
 
 ## Which windows are moved
