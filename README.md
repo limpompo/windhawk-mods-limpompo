@@ -1,4 +1,4 @@
-# Windhawk mods by limpompo
+# Windhawk mods by limpompo/claude
 
 **English** | [Русский](README.ru.md)
 
