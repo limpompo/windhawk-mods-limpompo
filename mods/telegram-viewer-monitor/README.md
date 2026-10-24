@@ -15,6 +15,7 @@ Telegram Desktop remembers which monitor the media viewer was opened on and open
 
 - Telegram Desktop (`Telegram.exe`) on Windows.
 - [Windhawk](https://windhawk.net).
+
 ## Installation
 
 1. Install [Windhawk](https://windhawk.net).

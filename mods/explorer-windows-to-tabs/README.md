@@ -32,6 +32,7 @@ When a new File Explorer window is opened (Win+E, "Open in new window", "Show in
 ## Known limitations
 
 The "new tab" window command (`WM_COMMAND 0xA21B`) and part of the logic rely on undocumented Explorer behavior, so a future Windows build may break the mod.
+
 ## Installation
 
 1. Install [Windhawk](https://windhawk.net).

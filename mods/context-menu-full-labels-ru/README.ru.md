@@ -14,6 +14,7 @@
 
 - Windows 11 с русским языком интерфейса (на других языках мод бесполезен).
 - [Windhawk](https://windhawk.net).
+
 ## Установка
 
 1. Установите [Windhawk](https://windhawk.net).

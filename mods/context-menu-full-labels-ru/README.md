@@ -14,6 +14,7 @@ Some Windows 11 builds ship a Russian `shell32.dll.mui` with abbreviated items i
 
 - Windows 11 with the Russian display language (the mod is useless on other languages).
 - [Windhawk](https://windhawk.net).
+
 ## Installation
 
 1. Install [Windhawk](https://windhawk.net).

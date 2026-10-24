@@ -15,6 +15,7 @@ Telegram Desktop запоминает, на каком мониторе откр
 
 - Telegram Desktop (`Telegram.exe`) в Windows.
 - [Windhawk](https://windhawk.net).
+
 ## Установка
 
 1. Установите [Windhawk](https://windhawk.net).
