@@ -4,7 +4,7 @@
 
 Useful if you have **several monitors**. Many apps remember which monitor a secondary window (media viewer, player, dialog) was opened on and open it there again, even if you now work with the app on another monitor. For example, Telegram Desktop opens photos and videos on the monitor where the viewer was last time, not where the chat is. This [Windhawk](https://windhawk.net) mod opens secondary windows of the apps you choose on the monitor where the app's active window is.
 
-![Demo: Telegram media viewer opens on the chat monitor](https://github.com/user-attachments/assets/5000330f-0441-4c61-926e-526427c3e0c2)
+![Demo: Telegram media viewer opens on the chat monitor](demo.gif)
 
 ## Features
 
