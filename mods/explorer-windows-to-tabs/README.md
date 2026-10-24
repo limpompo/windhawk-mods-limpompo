@@ -12,8 +12,17 @@ When a new File Explorer window is opened (Win+E, "Open in new window", "Show in
 - Selected files ("Show in folder") are selected in the tab as well.
 - Fixes "Show in folder" for an already open folder: Explorer selects the file but neither switches to the tab nor always picks the right one. The mod switches to the correct tab.
 - New tabs are opened with the "Open in new tab" command, like the context menu does.
-- Not merged: a window created while the left mouse button is held (a tab dragged out into its own window) and windows on another virtual desktop.
+- Hold **Shift** while opening a folder to get a separate window.
+- Control Panel is never merged and never gets other folders added as tabs.
+- Not merged: a tab dragged out into its own window, however fast the drag is (a tab leaves another window at the moment the new window appears), and windows on another virtual desktop. A folder opened by double-click is merged.
 - If anything goes wrong, the new window is shown as usual.
+- Turning the mod off is safe: all its work happens on one thread that is stopped and waited for.
+
+## Compared to Explorer Single Window Tabs
+
+[Explorer Single Window Tabs](https://windhawk.net/mods/explorer-single-window-tabs) also opens new Explorer windows as tabs. This mod additionally switches to a tab that already shows the folder, carries the "Show in folder" selection over to the new tab, fixes "Show in folder" into an already open folder, opens tabs with the "Open in new tab" verb, protects dragged-out tabs by the held mouse button (besides the Shift bypass that both mods have), and restores the new window if the tab couldn't be opened.
+
+**Don't enable both mods at the same time** - they would both handle every new window.
 
 ## Settings
 
@@ -22,11 +31,12 @@ When a new File Explorer window is opened (Win+E, "Open in new window", "Show in
 | Do not open a folder twice | on | Switch to the tab if the folder is already open |
 | Switch to the tab where the program selected a file | on | Fixes "Show in folder" tab switching |
 | Bring the tabbed window to the foreground | on | Activate (and restore) the Explorer window |
-| Leave windows created with a mouse button held | on | Protects dragged-out tabs |
+| Hold Shift to open a separate window | on | Shift held while opening a folder - the window stays separate |
+| Leave tabs dragged out into their own window | on | Protects dragged-out tabs; a double-click is still merged |
 
 ## Requirements
 
-- Windows 11 22H2 or newer (File Explorer with tabs).
+- Windows 11 22H2 or newer (File Explorer with tabs); on older builds the mod doesn't load.
 - [Windhawk](https://windhawk.net).
 
 ## Known limitations
