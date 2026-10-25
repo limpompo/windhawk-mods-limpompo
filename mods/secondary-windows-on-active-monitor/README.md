@@ -8,7 +8,7 @@ Useful if you have **several monitors**. Many apps remember which monitor a seco
 
 ## Features
 
-- Works with any app: the list of apps is set in the mod settings (Telegram Desktop by default).
+- Works with any app: the list of apps is set in the mod settings (a placeholder `test.exe` by default - replace it with your app, for example `Telegram.exe`).
 - Moves a secondary window to the active window's monitor before it is shown, so it doesn't flash on the old monitor.
 - The window keeps its relative position (a window in a corner stays in the same corner of the other monitor); a window larger than the target monitor is shrunk to fit.
 - A fullscreen window stays fullscreen; a maximized window stays maximized and, when restored, stays on the new monitor.
@@ -19,11 +19,15 @@ Useful if you have **several monitors**. Many apps remember which monitor a seco
 
 | Setting | Default | What it does |
 |---|---|---|
-| Applications | `Telegram.exe` | Apps whose secondary windows are moved. For each app: **Process** - executable name (`Telegram.exe` or `Telegram`) or full path; **Window title filter** - move only windows whose title contains this text (empty - all secondary windows) |
+| Applications | `test.exe` | Apps whose secondary windows are moved. For each app: **Process** - executable name (`Telegram.exe` or `Telegram`) or full path; **Window title filter** - move only windows whose title contains this text (empty - all secondary windows) |
 | Keep window position | on | On: the window keeps its place (a corner stays a corner). Off: the window is centered on the active window's monitor |
 | Account for monitor scaling | on | Places the window so it fits after the app resizes it for a different scale (100% / 150%). Turn off if windows are placed wrongly on such a setup |
 
-Changes to the list of apps apply without restarting the apps.
+The mod is loaded into every process and unloads itself at once from those that are not in the list. An app added to the list starts to work after it is restarted; removing an app from the list applies immediately.
+
+## Using it with other apps
+
+Telegram Desktop is the only app the mod was tested with. For apps that are not built with Qt, the mod decides which windows are regular ones by a heuristic (it skips menus, tooltips, drop-down lists and tool windows), so it may move something it shouldn't, such as a drop-down list or a splash screen. If that happens, set a **Window title filter** for that app.
 
 ## Which windows are moved
 

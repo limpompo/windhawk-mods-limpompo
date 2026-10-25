@@ -1,5 +1,27 @@
 # Changelog / Список изменений
 
+## 2.1
+
+- EN: Addressed the AI review: the mod unloads itself at once (`Wh_ModInit` returns `FALSE`) from processes that are not in the *Applications* list; the reload-on-change logic is reduced to unloading when an app is removed from the list. An app added to the list works after it is restarted.
+- EN: The default application in the list is the placeholder `test.exe` instead of Telegram.exe.
+- EN: Renamed "Child windows" to "Secondary windows" in the Russian name and texts.
+- EN: README states that Telegram is the only tested app and that the window filter for non-Qt apps is a heuristic.
+- RU: По замечаниям AI-ревью: мод сразу выгружается (`Wh_ModInit` возвращает `FALSE`) из процессов, которых нет в списке «Приложения»; логика перезагрузки сведена к выгрузке при удалении приложения из списка. Добавленное в список приложение работает после перезапуска.
+- RU: Приложение в списке по умолчанию — заглушка `test.exe` вместо Telegram.exe.
+- RU: В русском названии и текстах «Дочерние окна» заменено на «Второстепенные окна».
+- RU: В README указано, что проверялся только Telegram, а фильтр окон для не-Qt приложений — эвристика.
+
+## 2.1
+
+- EN: Addressed the AI review: the mod now targets `Telegram.exe` (`@include telegram.exe`) and hooks unconditionally; other apps are added in the Advanced tab (*Custom process inclusion list*). The *Applications* setting, the process matching and the reload logic are removed.
+- EN: The *Window title filter* is a single global setting again.
+- EN: Renamed "Child windows" to "Secondary windows" in the Russian name and texts.
+- EN: README states that Telegram is the only tested app and that the window filter for non-Qt apps is a heuristic.
+- RU: По замечаниям AI-ревью: мод нацелен на `Telegram.exe` (`@include telegram.exe`) и ставит хуки безусловно; другие приложения добавляются на вкладке Advanced (*Custom process inclusion list*). Настройка «Приложения», сопоставление процессов и логика перезагрузки убраны.
+- RU: «Фильтр по заголовку окна» снова одна общая настройка.
+- RU: В русском названии и текстах «Дочерние окна» заменено на «Второстепенные окна».
+- RU: В README указано, что проверялся только Telegram, а фильтр окон для не-Qt приложений — эвристика.
+
 ## 2.0
 
 - EN: The mod works with any app, not only Telegram: the new *Applications* setting is a list of processes (Telegram.exe by default), each with its own window title filter. Renamed to "Secondary windows on the active monitor", new id `secondary-windows-on-active-monitor` (was `telegram-viewer-monitor`).
